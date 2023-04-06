@@ -1,0 +1,4 @@
+python run_gen.py  --do_train --do_eval --do_eval_bleu# --do_test
+
+python run_gen_test.py  --do_test
+

@@ -1,0 +1,6 @@
+[Time: 9m] ./output/output_dir/checkpoint-best-bleu/pytorch_model.bin
+[best-bleu] bleu-4: 26.30, rouge_1: 39.6563, rouge_2: 28.5183, rouge_l: 36.4316
+[Time: 13m] ./output/output_dir/checkpoint-best-bleu/pytorch_model.bin
+[best-bleu] bleu-4: 45.05, rouge_1: 66.0639, rouge_2: 48.8817, rouge_l: 62.3624
+[Time: 23m] ./output/output_dir/checkpoint-best-bleu/pytorch_model.bin
+[best-bleu] bleu-4: 34.21, rouge_1: 58.1150, rouge_2: 40.9998, rouge_l: 54.2707

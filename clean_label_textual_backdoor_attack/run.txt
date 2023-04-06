@@ -1,0 +1,5 @@
+#for sst dataset
+python attack/sst_clean.py
+python attack/sst_door.py
+python attack/sst_attack.py
+

@@ -1,5 +1,5 @@
 ## Introduction
-clean label backdoor attack and defense
+This repository contains the data and code for clean label backdoor attack and defense. 
 
 ## Requirements
 * Python == 3.7
@@ -24,7 +24,7 @@ python run_gen.py  --do_train --do_eval --do_eval_bleu
 
 ## Train the Clean Victim Model.
 
-cd to clean_label_textual_backdoor_attack
+cd to clean_label_textual_backdoor_attack and download [BERT weights](https://huggingface.co/bert-base-uncased) .
 
 ```shell
 python attack/sst_clean.py

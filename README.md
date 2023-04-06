@@ -24,7 +24,7 @@ python run_gen.py  --do_train --do_eval --do_eval_bleu
 
 ## Train the Clean Victim Model.
 
-cd to clean_label_textual_backdoor_attack and download [BERT weights](https://huggingface.co/bert-base-uncased) .
+cd to clean_label_backdoor_attack and download [BERT weights](https://huggingface.co/bert-base-uncased) :
 
 ```shell
 python attack/sst_clean.py
@@ -40,7 +40,7 @@ python attack/sst_attack.py
 
 ## Train the Clean Defense Model.
 
-cd to clean_label_textual_backdoor_attack_defense
+cd to clean_label_backdoor_attack_defense and generate the isolated sample index:
 
 ```shell
 python attack/sst_t_sne.py
